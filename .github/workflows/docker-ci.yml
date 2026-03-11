@@ -19,6 +19,9 @@ jobs:
       - name: Run Docker Container
         run: docker run ml-docker_lr
 
+      - name: Run Tests
+        run: pytest
+
 
 
 
