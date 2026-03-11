@@ -23,7 +23,7 @@ jobs:
         run: pytest
       
       - name: Deploy Container
-        run: docker run ml:docker_lr
+        run: docker run ml-docker_lr
 
 
 
