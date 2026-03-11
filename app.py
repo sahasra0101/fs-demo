@@ -9,5 +9,6 @@ model.fit(X, y)
 
 prediction = model.predict([[6]])
 print("Predicted salary for 6 years of exp:",prediction[0])
+print("ngit says hi")
 
 
